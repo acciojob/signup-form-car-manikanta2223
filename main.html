@@ -10,18 +10,18 @@
 	<!-- the entire body must be written by student -->
 	<form method="post">
 		<!-- Name -->
-	<label for name>Name</label>
+	<label for="name">Name</label>
 	<input type="text" required id="name" name="name" placeholder="Name">
 		<!--gmail-->
-	<label for email>Email</label>
+	<label for="email">Email</label>
 	<input type="email" required id="email" name="email" placeholder="Email">
 		<!--gender-->
-	<label for radio>Gender</label>
+	<label for="radio">Gender</label>
 	<input type="radio" required id="gender_m" name="gender" value="male">Male
 	<input type="radio" required id="gender_f" name="gender" value="female">Female
 		<!--car Brands-->
-		<label for cars>Car Brands</label>
-		<select>
+		<label for="cars">Car Brands</label>		
+		<select type="select" required id="cars" placeholder="--Please choose an Option--">
 			<option value="">--Please choose an Option--</option>
 			<option value="Audi">Audi</option>
 			<option value="Toyato">Toyato</option>
@@ -31,19 +31,19 @@
 			<option value="Range Rover">Range Rover</option>
 		</select>
 		<!-- Age-->
-		<label for age>Age</label>
+		<label for ="age">Age</label>
 		<input type="number" required id="age" name="age"placeholder="Age">
 		<!-- DOB-->
-		<label for dob>DOB</label>
+		<label for ="dob">DOB</label>
 		<input type="date" required id="dob" name="dob" >
 		<!-- DOB-->
-		<label for tel>Phone Number</label>
+		<label for ="tel">Phone Number</label>
 		<input type="tel"  id="tel" name="phone number" placeholder="xxx-xxx-xxxx">
 		<!--Password-->
-		<label for password>Password</label>
+		<label for ="password">Password</label>
 		<input type="password" required id="password" name="password" placeholder="password">
 		<!--TOS-->
-		<label for tos>I agree to the TOS</label>
+		<label for="tos">I agree to the TOS</label>
 		<input type="checkbox" required id="tos" name="tos">
 		<!--Submit-->
 		<button type="submit">Submit</button>
