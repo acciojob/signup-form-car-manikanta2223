@@ -11,36 +11,42 @@
 	<form method="post">
 		<!-- Name -->
 	<label for name>Name</label>
-	<input type="text" required id="name" placeholder="Name">
+	<input type="text" required id="name" name="name" placeholder="Name">
 		<!--gmail-->
 	<label for email>Email</label>
-	<input type="email" required id="email" placeholder="Email">
+	<input type="email" required id="email" name="email" placeholder="Email">
 		<!--gender-->
 	<label for radio>Gender</label>
-	<input type="radio" required id="gender_m">Male
-	<input type="radio" required id="gender_f">Female
+	<input type="radio" required id="gender_m" name="gender" value="male">Male
+	<input type="radio" required id="gender_f" name="gender" value="female">Female
 		<!--car Brands-->
 		<label for cars>Car Brands</label>
 		<select>
 			<option>--Please choose an Option--</option>
+			<option>Audi</option>
+			<option>Toyato</option>
+			<option>Benz</option>
+			<option>Rolls Royas</option>
+			<option>Maruthi Suziki</option>
+			<option>Range Rover</option>
 		</select>
 		<!-- Age-->
 		<label for age>Age</label>
-		<input type="number" required id="age" placeholder="Age">
+		<input type="number" required id="age" name="age"placeholder="Age">
 		<!-- DOB-->
 		<label for dob>DOB</label>
-		<input type="date" required id="dob" >
+		<input type="date" required id="dob" name="dob" >
 		<!-- DOB-->
 		<label for tel>Phone Number</label>
-		<input type="tel"  id="tel" placeholder="xxx-xxx-xxxx">
+		<input type="tel"  id="tel" name="phone number" placeholder="xxx-xxx-xxxx">
 		<!--Password-->
 		<label for password>Password</label>
-		<input type="password" required id="password" placeholder="password">
+		<input type="password" required id="password" name="password" placeholder="password">
 		<!--TOS-->
 		<label for tos>I agree to the TOS</label>
-		<input type="checkbox" required id="tos">
+		<input type="checkbox" required id="tos" name="tos">
 		<!--Submit-->
-		<button>Submit</button>
+		<button type="submit">Submit</button>
 		
 	</form>
     <script type="text/javascript" src="./script.js">
